@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="1e-Dnge_LU3vigrGM9l0">
+    <mxGraphModel dx="1404" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t1UMdklzipQegNIEw1Bz-16" edge="1" parent="1" source="t1UMdklzipQegNIEw1Bz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="t1UMdklzipQegNIEw1Bz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1UMdklzipQegNIEw1Bz-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="1: Início" vertex="1">
+          <mxGeometry height="80" width="80" x="10" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t1UMdklzipQegNIEw1Bz-15" edge="1" parent="1" source="t1UMdklzipQegNIEw1Bz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="t1UMdklzipQegNIEw1Bz-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1UMdklzipQegNIEw1Bz-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="3: Throw exceção" vertex="1">
+          <mxGeometry height="80" width="80" x="220" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="t1UMdklzipQegNIEw1Bz-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="6: Fim" vertex="1">
+          <mxGeometry height="80" width="80" x="600" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="t1UMdklzipQegNIEw1Bz-11" edge="1" parent="1" source="t1UMdklzipQegNIEw1Bz-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="t1UMdklzipQegNIEw1Bz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1UMdklzipQegNIEw1Bz-12" connectable="0" parent="t1UMdklzipQegNIEw1Bz-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="V" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1UMdklzipQegNIEw1Bz-13" edge="1" parent="1" source="t1UMdklzipQegNIEw1Bz-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="t1UMdklzipQegNIEw1Bz-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1UMdklzipQegNIEw1Bz-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="4: Valor &amp;gt; Saldo?" vertex="1">
+          <mxGeometry height="80" width="80" x="300" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t1UMdklzipQegNIEw1Bz-14" edge="1" parent="1" source="t1UMdklzipQegNIEw1Bz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="t1UMdklzipQegNIEw1Bz-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1UMdklzipQegNIEw1Bz-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="5: Saldo -= Valor" vertex="1">
+          <mxGeometry height="80" width="80" x="460" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t1UMdklzipQegNIEw1Bz-7" edge="1" parent="1" source="t1UMdklzipQegNIEw1Bz-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="t1UMdklzipQegNIEw1Bz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1UMdklzipQegNIEw1Bz-8" connectable="0" parent="t1UMdklzipQegNIEw1Bz-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="V" vertex="1">
+          <mxGeometry relative="1" x="-0.3833" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1UMdklzipQegNIEw1Bz-9" edge="1" parent="1" source="t1UMdklzipQegNIEw1Bz-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="t1UMdklzipQegNIEw1Bz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1UMdklzipQegNIEw1Bz-10" connectable="0" parent="t1UMdklzipQegNIEw1Bz-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="F" vertex="1">
+          <mxGeometry relative="1" x="-0.025" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1UMdklzipQegNIEw1Bz-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="2: Valor &amp;lt;= 0?" vertex="1">
+          <mxGeometry height="80" width="80" x="140" y="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
